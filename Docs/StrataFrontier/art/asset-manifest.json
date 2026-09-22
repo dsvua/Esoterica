@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "inventory_date": "2026-09-04",
+  "source_root_description": "Read-only Backup/Assets library supplied by the user; current absolute path is documented in asset-audition.md.",
+  "source_policy": "Do not overwrite original sources. Fingerprints record the inspected input set, not production approval.",
+  "candidates": [
+    {
+      "id": "crate",
+      "source_path": "models/box_stylized/scene.gltf",
+      "intended_role": "Crate and stockpile prop",
+      "inspection_scope": "source_metadata_and_unreal_visual_geometry",
+      "disposition": "adapt_candidate",
+      "visual_status": "reviewed_with_adaptation_items",
+      "unreal_status": "imported_and_placed",
+      "production_approved": false,
+      "license": {
+        "status": "bundled_metadata_present_not_independently_verified",
+        "metadata_label": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "author": "LungJun Factory (https://sketchfab.com/LungJunFactory)",
+        "source_url": "https://sketchfab.com/3d-models/box-stylized-0f71f7bfd3214358a79f31d9d8736fd0",
+        "credit_file": "models/box_stylized/license.txt"
+      },
+      "metadata": {
+        "format_version": "2.0",
+        "generator": "Sketchfab-12.65.0",
+        "mesh_count": 3,
+        "skin_count": 0,
+        "animation_names": [
+          null
+        ]
+      },
+      "source_files": [
+        {
+          "path": "models/box_stylized/scene.gltf",
+          "bytes": 8600,
+          "sha256": "3e40869ac2de5e555f4049ba0a15c570cd8740d3f3903e2878011e447e3f6d18"
+        },
+        {
+          "path": "models/box_stylized/scene.bin",
+          "bytes": 488688,
+          "sha256": "e58f6bf0289151dfee76476b946c78a3e192dc118dd5e091dcd8c818943c02ba"
+        },
+        {
+          "path": "models/box_stylized/textures/material_baseColor.jpeg",
+          "bytes": 1376252,
+          "sha256": "ea21b058f2823a7ffb70fc0940893fded52ffff6f9f1267d1e7225d34300f37b"
+        },
+        {
+          "path": "models/box_stylized/textures/material_metallicRoughness.png",
+          "bytes": 3399444,
+          "sha256": "aa8a3705828ad0a71a11950b43abd9203e54890bb8bebb0e098eaea2ae555317"
+        },
+        {
+          "path": "models/box_stylized/textures/material_normal.png",
+          "bytes": 5139050,
+          "sha256": "33b1a4a997b93b39f59f623c7d41dad6dbb1768f10d4872e9d769256245a48a1"
+        },
+        {
+          "path": "models/box_stylized/license.txt",
+          "bytes": 694,
+          "sha256": "e7435b8237af01635010d12b0895aeeef91b251841502e46ea4356154a20038e"
+        }
+      ],
+      "adaptations": [
+        "Uniform scene scale0.5;88.25cm high;3 convex collision parts;adapt for consistency and budget."
+      ],
+      "unreal_asset_paths": [
+        "/Game/StrataFrontier/Tests/Art/Candidates/Crate/scene/StaticMeshes/defaultMaterial_61c851139da2f74ad9aacac76324b214",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Crate/scene/StaticMeshes/defaultMaterial_691c9a579339722d5e0181ea069b5be2",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Crate/scene/StaticMeshes/defaultMaterial",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Crate/scene/Materials/material",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Crate/scene/Textures/material_normal",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Crate/scene/Textures/material_metallicRoughness",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Crate/scene/Textures/material_baseColor"
+      ]
+    },
+    {
+      "id": "door",
+      "source_path": "models/dungeon_door/scene.gltf",
+      "intended_role": "Shelter door trial",
+      "inspection_scope": "source_metadata_and_unreal_visual_geometry",
+      "disposition": "reference_use_original_replacement",
+      "visual_status": "reviewed_with_adaptation_items",
+      "unreal_status": "imported_and_placed",
+      "production_approved": false,
+      "license": {
+        "status": "bundled_metadata_present_not_independently_verified",
+        "metadata_label": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "author": "DJMaesen (https://sketchfab.com/bumstrum)",
+        "source_url": "https://sketchfab.com/3d-models/dungeon-door-0507ef6c98664c4a8bc4eeb0f3c68fd9",
+        "credit_file": "models/dungeon_door/license.txt"
+      },
+      "metadata": {
+        "format_version": "2.0",
+        "generator": "Sketchfab-16.45.0",
+        "mesh_count": 5,
+        "skin_count": 0,
+        "animation_names": [
+          null
+        ]
+      },
+      "source_files": [
+        {
+          "path": "models/dungeon_door/scene.gltf",
+          "bytes": 16699,
+          "sha256": "d67e325a91a35cacb701917f37ac3bb27ae0808d8a859afd6dc60e5f88842ae3"
+        },
+        {
+          "path": "models/dungeon_door/scene.bin",
+          "bytes": 176484,
+          "sha256": "3a6e563058947b599666c34f2aa02a547eb1a0e8bdd00643fe6cff3c7e729652"
+        },
+        {
+          "path": "models/dungeon_door/textures/doorD_baseColor.png",
+          "bytes": 31350830,
+          "sha256": "ca362c905366138c64ff2e18ae711942cec2bf056d98554ee380928275d90282"
+        },
+        {
+          "path": "models/dungeon_door/textures/doorD_metallicRoughness.png",
+          "bytes": 13436733,
+          "sha256": "57d1687e403e7ae071144d6cf6c56f773b3a201d6bf243b31c293e99740038b3"
+        },
+        {
+          "path": "models/dungeon_door/textures/doorD_normal.png",
+          "bytes": 22858643,
+          "sha256": "97a90a7f18afe415a1a2358444aec6f2ecee982569c0d870360bd80fc2a1e8f5"
+        },
+        {
+          "path": "models/dungeon_door/license.txt",
+          "bytes": 668,
+          "sha256": "229474163dff09e17e041cc185d2ff6bd277bcdd03362ed593a1ff2441a4a8ca"
+        }
+      ],
+      "adaptations": [
+        "Uniform scene scale0.62;frame299cm,leaf186cm;retain as reference and use custom shelter door."
+      ],
+      "unreal_asset_paths": [
+        "/Game/StrataFrontier/Tests/Art/Candidates/Door/scene/StaticMeshes/frame_doorD_0",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Door/scene/StaticMeshes/door_doorD_0",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Door/scene/StaticMeshes/handle_doorD_0",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Door/scene/StaticMeshes/window_doorD_0",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Door/scene/StaticMeshes/windowhandle_doorD_0",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Door/scene/Materials/doorD",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Door/scene/Textures/doorD_normal",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Door/scene/Textures/doorD_metallicRoughness",
+        "/Game/StrataFrontier/Tests/Art/Candidates/Door/scene/Textures/doorD_baseColor"
+      ]
+    },
+    {
+      "id": "tree_stylized",
+      "source_path": "models/stylized_tree/scene.gltf",
+      "intended_role": "Vegetation comparison A",
+      "inspection_scope": "source_metadata_and_unreal_visual_geometry",
+      "disposition": "adapt_candidate",
+      "visual_status": "reviewed_with_adaptation_items",
+      "unreal_status": "imported_and_placed",
+      "production_approved": false,
+      "license": {
+        "status": "bundled_metadata_present_not_independently_verified",
+        "metadata_label": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "author": "yonimantz (https://sketchfab.com/yonimantz09)",
+        "source_url": "https://sketchfab.com/3d-models/stylized-tree-6d1aeea748f147789004bc03e1930d32",
+        "credit_file": "models/stylized_tree/license.txt"
+      },
+      "metadata": {
+        "format_version": "2.0",
+        "generator": "Sketchfab-12.68.0",
+        "mesh_count": 5,
+        "skin_count": 0,
+        "animation_names": [
+          null
+        ]
+      },
+      "source_files": [
+        {
+          "path": "models/stylized_tree/scene.gltf",
+          "bytes": 12397,
+          "sha256": "d7c5106866fa696fb76627ae6c12dc1c8a45fc1a856aabe420576aeb53edae52"
+        },
+        {
+          "path": "models/stylized_tree/scene.bin",
+          "bytes": 14091048,
+          "sha256": "de1d815a46e2cd805e58ae8528d5be1237af92dc1006d29db05d8cd4d14e9271"
+        },
+        {
+          "path": "models/stylized_tree/textures/leafes_Mat.001_baseColor.png",
+          "bytes": 795168,
+          "sha256": "27c8285974d44c57282b649cdf6a304f081bb577537b8920fc46938c381ad56d"
+        },
+        {
+          "path": "models/stylized_tree/license.txt",
+          "bytes": 680,
+          "sha256": "4f7600fef0fd69afd191dd07b83a3a0f30b98ee2deeda2b381007fe607274bd5"
+        }
+      ],
+      "adaptations": [
+        "Uniform scale8.86587 to500cm;adapt palette,trunk and geometry cost."
+      ],
+      "unreal_asset_paths": [
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreeStylized/scene/StaticMeshes/oak_01_001_trunk_Mat_001_0",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreeStylized/scene/StaticMeshes/oak_01_leafes_Mat_001_0_b7057be219be48b9ca037fc68c36fdc3",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreeStylized/scene/StaticMeshes/oak_01_leafes_Mat_001_0",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreeStylized/scene/Materials/leafes_Mat_001",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreeStylized/scene/Textures/leafes_Mat_001_baseColor",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreeStylized/scene/StaticMeshes/oak_01_001_trunk_Mat_001_0_c76536a9f3f92e979288c5a7e668ac05",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreeStylized/scene/StaticMeshes/oak_01_001_trunk_Mat_001_0_d4fc2be013074c100d7fbb62486fbf05",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreeStylized/scene/Materials/trunk_Mat_001"
+      ]
+    },
+    {
+      "id": "trees_low_poly",
+      "source_path": "models/low_poly_trees_free/scene.gltf",
+      "intended_role": "Vegetation comparison B",
+      "inspection_scope": "source_metadata_and_unreal_visual_geometry",
+      "disposition": "adapt_candidate",
+      "visual_status": "reviewed_with_adaptation_items",
+      "unreal_status": "imported_and_placed",
+      "production_approved": false,
+      "license": {
+        "status": "bundled_metadata_present_not_independently_verified",
+        "metadata_label": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "author": "Nicholas-3D (https://sketchfab.com/Nicholas01)",
+        "source_url": "https://sketchfab.com/3d-models/low-poly-trees-free-6a2952e0ebdd41fa93cefda6ae0a4102",
+        "credit_file": "models/low_poly_trees_free/license.txt"
+      },
+      "metadata": {
+        "format_version": "2.0",
+        "generator": "Sketchfab-15.31.0",
+        "mesh_count": 6,
+        "skin_count": 0,
+        "animation_names": [
+          null
+        ]
+      },
+      "source_files": [
+        {
+          "path": "models/low_poly_trees_free/scene.gltf",
+          "bytes": 21293,
+          "sha256": "9ec7608401a4e212b6bc9d86e4d4ae372d1c015fbf07f8f31ff3b346d0f7ac7e"
+        },
+        {
+          "path": "models/low_poly_trees_free/scene.bin",
+          "bytes": 198384,
+          "sha256": "426ff63d9a925511ccba9cd82edf0039e97928a1f74b174213c7ded45b73658a"
+        },
+        {
+          "path": "models/low_poly_trees_free/textures/Bark_baseColor.jpeg",
+          "bytes": 776757,
+          "sha256": "cd3ff4fe14647827d144db98d933efe76d328a617df3590525b859e4a5491cbd"
+        },
+        {
+          "path": "models/low_poly_trees_free/textures/Bark_metallicRoughness.png",
+          "bytes": 556014,
+          "sha256": "36b732767bbd76f1dc1fee39ca3cf2894f8d376cb4ae724b1e4d5f7c0892383e"
+        },
+        {
+          "path": "models/low_poly_trees_free/textures/Bark_normal.png",
+          "bytes": 2131525,
+          "sha256": "150db38b3a46c1744e428c025a77e60234c6861ceabfb71fd07b3d07089c9ee3"
+        },
+        {
+          "path": "models/low_poly_trees_free/textures/Leaf_baseColor.png",
+          "bytes": 2523969,
+          "sha256": "8e9fb9f05a67cd686c05d01f5043b73973282368cc49e02d680ac2d5659a532a"
+        },
+        {
+          "path": "models/low_poly_trees_free/textures/Leaf_normal.png",
+          "bytes": 1650971,
+          "sha256": "fef3bf9d2bb45a1e1292d9c7aacff68fbdc9e5b1cb103d79b6c1386fcc8455c2"
+        },
+        {
+          "path": "models/low_poly_trees_free/license.txt",
+          "bytes": 706,
+          "sha256": "6a968640ca0baf2b579330fc0cea46c85351bc1179ccef2958dd054756c88707"
+        }
+      ],
+      "adaptations": [
+        "Uniform scale3.04335 to500cm;first variant only;translucent foliage needs alpha/shadow adaptation."
+      ],
+      "unreal_asset_paths": [
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/Textures/Leaf_normal",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/Textures/Leaf_baseColor",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/StaticMeshes/Object_10",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/StaticMeshes/Object_7",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/StaticMeshes/Object_4",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/Materials/Bark",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/Textures/Bark_normal",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/Textures/Bark_metallicRoughness",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/Textures/Bark_baseColor",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/StaticMeshes/Object_5",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/StaticMeshes/Object_8",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/StaticMeshes/Object_11",
+        "/Game/StrataFrontier/Tests/Art/Candidates/TreesLowPoly/scene/Materials/Leaf"
+      ]
+    },
+    {
+      "id": "brick_material",
+      "source_path": "Materials/seamless_pbr_texture_brick_05/scene.gltf",
+      "intended_role": "Optional construction material swatch",
+      "inspection_scope": "filenames_and_metadata_only",
+      "disposition": "audition_candidate",
+      "visual_status": "not_reviewed",
+      "unreal_status": "not_imported",
+      "production_approved": false,
+      "license": {
+        "status": "bundled_metadata_present_not_independently_verified",
+        "metadata_label": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+        "author": "Arthur.Zim (https://sketchfab.com/Arthur.Zim)",
+        "source_url": "https://sketchfab.com/3d-models/seamless-pbr-texture-brick-05-3f31bfc924c9481d89159b47c0e67639",
+        "credit_file": "Materials/seamless_pbr_texture_brick_05/license.txt"
+      },
+      "metadata": {
+        "format_version": "2.0",
+        "generator": "Sketchfab-12.67.0",
+        "mesh_count": 3,
+        "skin_count": 0,
+        "animation_names": [
+          null
+        ]
+      },
+      "source_files": [
+        {
+          "path": "Materials/seamless_pbr_texture_brick_05/scene.gltf",
+          "bytes": 8655,
+          "sha256": "f655a7f313927e2146cd110227363044c53bdd4273017f44984f39fa88c52dcb"
+        },
+        {
+          "path": "Materials/seamless_pbr_texture_brick_05/scene.bin",
+          "bytes": 9531984,
+          "sha256": "89ec735c060ac70464cb1c02058b4e62a75ac4443cf4dd3802ca6b72fcfb9854"
+        },
+        {
+          "path": "Materials/seamless_pbr_texture_brick_05/textures/Textures_baseColor.png",
+          "bytes": 3322744,
+          "sha256": "3f732e4a5a600ecdf48d2e8f909f47e4eccf52832eb2bac8c89a5b3d5316f338"
+        },
+        {
+          "path": "Materials/seamless_pbr_texture_brick_05/textures/Textures_metallicRoughness.png",
+          "bytes": 4942371,
+          "sha256": "5491571f24dd5733ca24e86e9eb1b7d801349ba5146dceb86037e7c5d54ac6b7"
+        },
+        {
+          "path": "Materials/seamless_pbr_texture_brick_05/textures/Textures_normal.png",
+          "bytes": 5212504,
+          "sha256": "5e3478afc03c70a1be12b3cdd0c398e5ce9d2cda1b5eccda75c01456348becf7"
+        },
+        {
+          "path": "Materials/seamless_pbr_texture_brick_05/license.txt",
+          "bytes": 744,
+          "sha256": "47aba5cf71ff89a9856838d387183bd2661f098a0e2811bb00bdcd0cbe4204f6"
+        }
+      ],
+      "adaptations": [],
+      "unreal_asset_paths": []
+    },
+    {
+      "id": "king",
+      "source_path": "models/King.gltf",
+      "intended_role": "Temporary unknown-source character/action reference; original replacement preferred",
+      "inspection_scope": "filenames_and_metadata_only",
+      "disposition": "temporary_reference_replacement_planned",
+      "visual_status": "not_reviewed",
+      "unreal_status": "not_imported",
+      "production_approved": false,
+      "license": {
+        "status": "user_confirmed_source_unknown",
+        "metadata_label": null,
+        "author": null,
+        "source_url": null,
+        "credit_file": null
+      },
+      "metadata": {
+        "format_version": "2.0",
+        "generator": "Khronos glTF Blender I/O v1.7.33",
+        "mesh_count": 4,
+        "skin_count": 1,
+        "animation_names": [
+          "Death",
+          "Gun_Shoot",
+          "HitRecieve",
+          "HitRecieve_2",
+          "Idle",
+          "Idle_Gun",
+          "Idle_Gun_Pointing",
+          "Idle_Gun_Shoot",
+          "Idle_Neutral",
+          "Idle_Sword",
+          "Interact",
+          "Kick_Left",
+          "Kick_Right",
+          "Punch_Left",
+          "Punch_Right",
+          "Roll",
+          "Run",
+          "Run_Back",
+          "Run_Left",
+          "Run_Right",
+          "Run_Shoot",
+          "Sword_Slash",
+          "Walk",
+          "Wave"
+        ]
+      },
+      "source_files": [
+        {
+          "path": "models/King.gltf",
+          "bytes": 3790158,
+          "sha256": "659c7d84dcea8c6331698c3430484861944c83e629389425664b782d4aecd17c"
+        }
+      ],
+      "adaptations": [],
+      "unreal_asset_paths": [],
+      "user_direction": "2026-09-04: User does not remember the source, plans to replace it, and authorizes original asset creation."
+    },
+    {
+      "id": "palladin_walk",
+      "source_path": "models/Mixamo Palladin Walking Skin Animation.fbx",
+      "intended_role": "Temporary unknown-source character/action reference; original replacement preferred",
+      "inspection_scope": "filenames_and_metadata_only",
+      "disposition": "temporary_reference_replacement_planned",
+      "visual_status": "not_reviewed",
+      "unreal_status": "not_imported",
+      "production_approved": false,
+      "license": {
+        "status": "user_confirmed_source_unknown",
+        "metadata_label": null,
+        "author": null,
+        "source_url": null,
+        "credit_file": null
+      },
+      "metadata": null,
+      "source_files": [
+        {
+          "path": "models/Mixamo Palladin Walking Skin Animation.fbx",
+          "bytes": 9234544,
+          "sha256": "a88e8c2a204895125231fcfbd3df9c9a4d6cb9725344eb2ee40f63a63adf3afe"
+        }
+      ],
+      "adaptations": [],
+      "unreal_asset_paths": [],
+      "user_direction": "2026-09-04: User does not remember the source, plans to replace it, and authorizes original asset creation."
+    },
+    {
+      "id": "palladin_run",
+      "source_path": "models/Mixamo Palladin Running Skin Animation.fbx",
+      "intended_role": "Temporary unknown-source character/action reference; original replacement preferred",
+      "inspection_scope": "filenames_and_metadata_only",
+      "disposition": "temporary_reference_replacement_planned",
+      "visual_status": "not_reviewed",
+      "unreal_status": "not_imported",
+      "production_approved": false,
+      "license": {
+        "status": "user_confirmed_source_unknown",
+        "metadata_label": null,
+        "author": null,
+        "source_url": null,
+        "credit_file": null
+      },
+      "metadata": null,
+      "source_files": [
+        {
+          "path": "models/Mixamo Palladin Running Skin Animation.fbx",
+          "bytes": 9173968,
+          "sha256": "f9a058b271dadab771234e027b17103d7fae3bf1efcba8da1711e40cc36d6177"
+        }
+      ],
+      "adaptations": [],
+      "unreal_asset_paths": [],
+      "user_direction": "2026-09-04: User does not remember the source, plans to replace it, and authorizes original asset creation."
+    },
+    {
+      "id": "palladin_crouch",
+      "source_path": "models/Mixamo Palladin Crouching Animation no Skin.fbx",
+      "intended_role": "Temporary unknown-source character/action reference; original replacement preferred",
+      "inspection_scope": "filenames_and_metadata_only",
+      "disposition": "temporary_reference_replacement_planned",
+      "visual_status": "not_reviewed",
+      "unreal_status": "not_imported",
+      "production_approved": false,
+      "license": {
+        "status": "user_confirmed_source_unknown",
+        "metadata_label": null,
+        "author": null,
+        "source_url": null,
+        "credit_file": null
+      },
+      "metadata": null,
+      "source_files": [
+        {
+          "path": "models/Mixamo Palladin Crouching Animation no Skin.fbx",
+          "bytes": 903728,
+          "sha256": "7990853bd6b4645145aec3226a7f510f3513d1c810df855b66ff2c9f9ce0a1fe"
+        }
+      ],
+      "adaptations": [],
+      "unreal_asset_paths": [],
+      "user_direction": "2026-09-04: User does not remember the source, plans to replace it, and authorizes original asset creation."
+    },
+    {
+      "id": "vanguard",
+      "source_path": "models/Vanguard By T. Choonyung.fbx",
+      "intended_role": "Temporary unknown-source character/action reference; original replacement preferred",
+      "inspection_scope": "filenames_and_metadata_only",
+      "disposition": "temporary_reference_replacement_planned",
+      "visual_status": "not_reviewed",
+      "unreal_status": "not_imported",
+      "production_approved": false,
+      "license": {
+        "status": "user_confirmed_source_unknown",
+        "metadata_label": null,
+        "author": null,
+        "source_url": null,
+        "credit_file": null
+      },
+      "metadata": null,
+      "source_files": [
+        {
+          "path": "models/Vanguard By T. Choonyung.fbx",
+          "bytes": 11404448,
+          "sha256": "739f44f512e2f3a45c4da0eff20e451410cd2935f02380eb42daf093970268f1"
+        }
+      ],
+      "adaptations": [],
+      "unreal_asset_paths": [],
+      "user_direction": "2026-09-04: User does not remember the source, plans to replace it, and authorizes original asset creation."
+    }
+  ],
+  "audition_result": "docs/art/asset-audition-result.md",
+  "custom_shelter": {
+    "revision": "v002",
+    "source": "SourceArt/Environment/Architecture/FrontierShelter_Audition/v002",
+    "native_repair": "v002/exports/native-import-repair.json",
+    "visual_approval": {
+      "status": "approved_starting_visual_baseline",
+      "date": "2026-09-04",
+      "scope": "Original shelter v002 style and level of detail; reimport, collision and performance limitations remain in force. Marketplace crate and tree candidates are not production-approved by this decision.",
+      "user_feedback": "yes, I like it so far"
+    },
+    "production_approved": false,
+    "unreal_status": "imported_repaired_reviewed",
+    "unreal_asset_paths": [
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/T_SF_Shelter_Stone_BaseColor",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/M_SF_Shelter_Stone",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/T_SF_Shelter_Timber_BaseColor",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/M_SF_Shelter_Timber",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/SM_SF_Shelter_Ridge_1m",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/SM_SF_Shelter_Gable_4m",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/T_SF_Shelter_Roof_BaseColor",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/M_SF_Shelter_Roof",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/SM_SF_Shelter_RoofHalf_1m",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/SM_SF_Shelter_DoorLeaf",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/SM_SF_Shelter_Doorway_2m",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/M_SF_Shelter_Iron",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/SM_SF_Shelter_Post_3m",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/SM_SF_Shelter_Window_1m",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/T_SF_Shelter_Plaster_BaseColor",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/M_SF_Shelter_Plaster",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/SM_SF_Shelter_Wall_1m",
+      "/Game/StrataFrontier/Art/Environment/Architecture/FrontierShelter_Audition/SM_SF_Shelter_Floor_1m"
+    ]
+  }
+}
